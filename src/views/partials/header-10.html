@@ -1,0 +1,35 @@
+<!-- Navbar -->
+<header class="header-style-10">
+    <div class="header-topbar-full">
+        <div class="container container-topbar d-none d-lg-block">
+            <div class="header-topbar">
+                <div class="topbar-left">
+                    <span class="location me-5"><strong>Location</strong> 62, Business Str Hobert, AU</span>
+                    <span class="email"><strong>email</strong> info@acorn.com</span>
+                </div>
+                <div class="topbar-right">
+                    <span class="phone"><strong>Phone</strong> +98 909807</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg @@classList">
+        <div class="container px-3">
+            <a class="navbar-brand pe-4" href="index.html"><img src="assets/imgs/template/logo.svg" alt /></a>          
+            @@include("main-menu.html",{ "classList": "m-auto" })
+            <div class="d-flex align-items-center">
+                <a href="javascript:void(0)" class="menu-tigger btn-navbar rounded-circle px-2 ms-4 d-flex align-items-center justify-content-center btn-menu d-lg-none d-inline-block">
+                    <svg width="30" height="24" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="12" x2="30" y2="12" stroke="" stroke-width="3"/>
+                        <path d="M5 22H30" stroke="" stroke-width="3"/>
+                        <path d="M10 2H30" stroke="" stroke-width="3"/>
+                    </svg>                        
+                </a>
+                <a href="#" class="btn btn-quote d-none d-lg-inline-block">
+                    Get In Touch
+                </a>
+            </div>
+        </div>
+    </nav>
+    @@include("offcanvas.html")
+</header>

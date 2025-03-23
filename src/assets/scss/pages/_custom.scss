@@ -1,0 +1,40 @@
+.custombox-banner {
+  background-image: url(../imgs/pages/custom/services-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+}
+
+.custombox-banner-inner {
+  background-image: url(../imgs/pages/faq/bg-faq.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  padding: 20px 0px;
+  position: relative;
+}
+
+.customhome-banner {
+    position: relative;
+    padding: 180px 0px 259px 0px;
+    background: url(../imgs/pages/custom/banner001.jpg) no-repeat top center;
+    background-size: cover;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        background: url(../imgs/pages/home1/bg-banner.png) no-repeat top center;
+    }
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+.customlogo {
+  max-width: 75%;
+}

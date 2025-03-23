@@ -1,0 +1,23 @@
+@@include("topbar-1.html",{ "classList": "top-bar-style-8" })
+<!-- Navbar -->
+<header class="header-style-8 header-style-4">
+    <nav class="navbar navbar-expand-lg @@classList">
+        <div class="container px-3">
+            <a class="navbar-brand pe-4" href="index.html"><img src="assets/imgs/template/logo6.svg" alt /></a>          
+            @@include("main-menu-3.html")
+            <div class="d-flex align-items-center">
+                <a href="javascript:void(0)" class="menu-tigger btn-navbar rounded-circle px-2 ms-4 d-flex align-items-center justify-content-center btn-menu d-lg-none d-inline-block">
+                    <svg width="30" height="24" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="12" x2="30" y2="12" stroke="white" stroke-width="3"/>
+                        <path d="M5 22H30" stroke="white" stroke-width="3"/>
+                        <path d="M10 2H30" stroke="white" stroke-width="3"/>
+                    </svg>                        
+                </a>
+                <a href="#" class="btn btn-linear-02 d-none d-lg-inline-block">
+                    Get a quote                   
+                </a>
+            </div>
+        </div>
+    </nav>
+    @@include("offcanvas.html")
+</header>

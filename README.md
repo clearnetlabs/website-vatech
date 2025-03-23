@@ -1,2 +1,1 @@
-# website-vatech
-Main clearnetlabs website (VATECH template)
+Vatech - Technology Solutions & Business HTML Template 2024
